@@ -1,0 +1,19 @@
+﻿<Window x:Class="WY.WPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WY.WPF"
+        mc:Ignorable="d"
+        Title="WPF练习" Height="450" Width="800"
+        FontWeight="Black" WindowStartupLocation="CenterScreen">
+    <Window.Resources>
+        <ResourceDictionary Source="pack://application:,,,/WY.WPF;component/ResDictionary.xaml"/>
+    </Window.Resources>
+    <StackPanel>
+        <Image Source="pack://application:,,,/WY.WPF;component/Asstes/Docker.png" Height="50" HorizontalAlignment="Left"/>
+        <TextBlock Text="&#xe60b;" FontFamily="pack://application:,,,/WY.WPF;component/Asstes/#iconfont" FontSize="50"/>
+        <Border Style="{StaticResource BorderStyle}" Margin="10"/>
+        <Button Style="{StaticResource ButtonStyle}" HorizontalAlignment="Left"/>
+    </StackPanel>
+</Window>
