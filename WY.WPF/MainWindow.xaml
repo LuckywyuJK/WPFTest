@@ -14,6 +14,12 @@
         <Image Source="pack://application:,,,/WY.WPF;component/Asstes/Docker.png" Height="50" HorizontalAlignment="Left"/>
         <TextBlock Text="&#xe60b;" FontFamily="pack://application:,,,/WY.WPF;component/Asstes/#iconfont" FontSize="50"/>
         <Border Style="{StaticResource BorderStyle}" Margin="10"/>
-        <Button Style="{StaticResource ButtonStyle}" HorizontalAlignment="Left"/>
+        <Button Style="{StaticResource ButtonStyle}" HorizontalAlignment="Left">
+            <ControlTemplate>
+                <!--<Grid>
+                    <TextBlock Text="{TemplateBinding }"/>
+                </Grid>-->
+            </ControlTemplate>
+        </Button>
     </StackPanel>
 </Window>
