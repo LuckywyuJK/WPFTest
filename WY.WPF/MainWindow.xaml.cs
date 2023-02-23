@@ -26,7 +26,7 @@ namespace WY.WPF
         //第二步：注册,通过new PropertyMetadata给依赖属性一个默认值
         static MainWindow()
         {
-            VlueProperty = DependencyProperty.Register("VlueProperty", typeof(double),typeof(MainWindow),new PropertyMetadata(1.0,));
+            VlueProperty = DependencyProperty.Register("VlueProperty", typeof(double),typeof(MainWindow),new PropertyMetadata(1.0));
         }
         public MainWindow()
         {
