@@ -15,11 +15,6 @@
         <TextBlock Text="&#xe60b;" FontFamily="pack://application:,,,/WY.WPF;component/Asstes/#iconfont" FontSize="50"/>
         <Border Style="{StaticResource BorderStyle}" Margin="10"/>
         <Button Style="{StaticResource ButtonStyle}" HorizontalAlignment="Left">
-            <ControlTemplate>
-                <!--<Grid>
-                    <TextBlock Text="{TemplateBinding }"/>
-                </Grid>-->
-            </ControlTemplate>
         </Button>
     </StackPanel>
 </Window>
